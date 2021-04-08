@@ -1,0 +1,144 @@
+body 
+{
+	width: 50%;
+	margin: 100px auto;
+}
+
+.profile-photo 
+{
+	float: left;
+	margin-left: 5px;
+}
+
+.quote 
+{
+	float: right;
+	position: relative;
+	width: 600px;
+	height: 300px;
+}
+
+.quote__icon 
+{
+	position: absolute;
+	width: 130px;
+	height: 87px;
+	margin-top: 50px;
+	margin-left: 45px;
+	padding: 0;
+}
+
+.quote__text 
+{
+	font-style: italic;
+	font-family: Georgia;
+	font-size: 28px;
+	padding: 0 40px 0 60px;
+	margin: 118px 0 0 45px;
+	line-height: 1.5;
+	color: #848484;
+}
+
+.quote__author 
+{
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 12px 0 128px 47px;
+	padding: 0 60px;
+}
+
+.sidebar 
+{
+	float: left;
+	clear: both;
+	margin-left: 5px;
+	margin-top: 45px; 
+}
+
+.sidebar__title 
+{
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #15a98b;
+	margin-top: 0;
+	margin-bottom: 18px;
+}
+
+.sidebar__list 
+{
+	font-family: Georgia;
+	font-size: 19px;
+	padding: 0 20px;
+	margin-bottom: 48px;
+}
+
+.sidebar__item 
+{
+	margin-bottom: 15px;
+}
+
+.content 
+{
+	float: right;
+	width: 520px;
+	margin-right: 42px;
+}
+
+.content__biography-title 
+{
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	margin: 33px 0 0 11px;
+}
+
+.content__hobby-title 
+{
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 36px;
+	margin: 38px 0 0 5px;
+}
+
+.content__line 
+{
+	background-color: #15a98c;
+    width: 60px;
+    height: 5px;
+    border-radius: 2.5px;
+    margin: 21px 0 45px 7px; 
+}
+
+.content__biography-text
+{
+	font-family: Georgia;
+	font-size: 19px;
+	width: 520px;
+	margin: 15px 0 15px 7px;
+	line-height: 1.7;
+}
+
+.content__hobby-text 
+{
+	font-family: Georgia;
+	font-size: 19px;
+	width: 560px;
+	margin: 12px 0 46px 7px;
+	line-height: 1.7;
+}
+
+.content__hypertext 
+{
+	text-decoration: none;
+	color: #15a98b;
+	font-family: 'Georgia', serif;
+	margin-left: 7px;
+	font-size: 19px;
+}
+
+.content__hypertext:after
+{
+    content: ' →';
+}
